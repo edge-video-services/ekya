@@ -1,0 +1,61 @@
+python train_basemodel.py -dc -r /home/researcher/datasets/cityscapes/ -cp /home/researcher/models/pretrained_cityscapes.pt --lists-train berlin,bielefeld,bonn,leverkusen,mainz,munich --lists-val frankfurt,lindau,munster
+
+python train_basemodel.py -dc -r /home/researcher/datasets/cityscapes/ -cp /home/researcher/models/pretrained_cityscapes.pt --lists-train frankfurt,lindau,munster --lists-val frankfurt,lindau,munster
+
+python train_basemodel.py -dc -r /home/researcher/datasets/cityscapes/ -cp /home/researcher/models/pretrained_cityscapes.pt --lists-train zurich,stuttgart,darmstadt,dusseldorf,monchengladbach,aachen,tubingen,bochum,bremen,cologne,ulm,jena,strasbourg,hamburg,krefeld,weimar,hanover,erfurt --lists-val frankfurt,lindau,munster
+
+python retraining_run.py -dc -r /home/researcher/datasets/cityscapes/ -cp /home/researcher/models/pretrained_cityscapes.pt --lists-train aachen
+
+python driver_motivation.py -dc -lr 1 -e 50 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster.pt --results-path /home/researcher/results/
+
+python driver_motivation.py -dc -lr 1 -e 50 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster.pt --results-path /home/researcher/results/ -nt 5
+
+# Train for 64 hidden layer size
+python train_basemodel.py -dc -nh 64 -r /home/researcher/datasets/cityscapes/ -cp /home/researcher/models/pretrained_cityscapes_fftmunster_64x2.pt --lists-train frankfurt,munster --lists-val lindau
+
+# Train for 1024 hidden layer size
+python train_basemodel.py -dc -nh 1024 -r /home/researcher/datasets/cityscapes/ -cp /home/researcher/models/pretrained_cityscapes_fftmunster_1024x2.pt --lists-train frankfurt,munster --lists-val lindau
+
+# Train for 512_hidden layer size
+python train_basemodel.py -dc -nh 512 -r /home/researcher/datasets/cityscapes/ -cp /home/researcher/models/pretrained_cityscapes_fftmunster_512x2.pt --lists-train frankfurt,munster --lists-val lindau
+
+python train_basemodel.py -dc -e 50 -nh 64 -r /home/researcher/datasets/cityscapes/ -cp /home/researcher/models/pretrained_cityscapes_fftmunster_64x2.pt --lists-train frankfurt,munster --lists-val lindau;python train_basemodel.py -dc -e 50 -nh 512 -r /home/researcher/datasets/cityscapes/ -cp /home/researcher/models/pretrained_cityscapes_fftmunster_512x2.pt --lists-train frankfurt,munster --lists-val lindau;python train_basemodel.py -dc -e 50 -nh 1024 -r /home/researcher/datasets/cityscapes/ -cp /home/researcher/models/pretrained_cityscapes_fftmunster_1024x2.pt --lists-train frankfurt,munster --lists-val lindau
+
+
+python driver_profiles.py -dc -e 30 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster_ --results-path /home/researcher/results_profile/ -nt 3
+
+python driver_profiles.py -dc -e 30 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster_ --results-path /home/researcher/results_profile/ -nt 3
+
+# Profile 10 tasks:
+python driver_profiles.py -dc -e 30 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster_ --results-path /home/researcher/results_profile/ -nt 10
+
+# Retraining frequency expts:
+python driver_motivation.py -dc -hw 0 -e 5 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster_512x2.pt --results-path /home/researcher/results/0hw_run/ -nt 20 && python driver_motivation.py -dc -hw 0 -e 10 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster_512x2.pt --results-path /home/researcher/results/0hw_run/ -nt 10 && python driver_motivation.py -dc -hw 0 -e 20 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster_512x2.pt --results-path /home/researcher/results/0hw_run/ -nt 5
+
+# Profiling by continuing model from previous task instead of starting from scratch pretrained
+python driver_profiles.py -dc -e 30 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster_ --results-path /home/researcher/results_profile/ -nt 10
+
+# Profiling by training from scratch pretrained, have 3 subprofiles !!!! Suspended on 02/03. Temp results in 20200201_1305.
+python driver_profiles.py -dc -e 30 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster_ --results-path /home/researcher/results_profile/ -nt 10 -nsp 3 -dtfs
+
+
+# Profiling by training from scratch pretrained, have 3 subprofiles !!!! Resuming on 02/03. Temp results in 20200203_1735/.
+python driver_profiles.py -dc -e 30 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster_ --results-path /home/researcher/results_profile/ -nt 10 -nsp 3 -dtfs
+
+
+# Retraining freq expt for fig 1a
+python driver_retrainingfreq.py -dc -e 30 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster_ --results-path /home/researcher/results_motivation/ -nt 10 -nsp 1 -dtfs
+
+#Benchmarking
+python train_basemodel.py -e 100 -dc -mn resnet18 -nh 64 -r /home/romilb/datasets/cityscapes_raw/ -cp /tmp/ckpt.pt --lists-train frankfurt,munster --lists-val lindau,tubingen
+
+16 June 2020
+Replicating motivation experiments:
+python driver_motivation.py -dc -lr 0.01 -e 50 -r /home/romilb/datasets/cityscapes_raw/ -rp /home/romilb/research/msr/models/pretrained_cityscapes_fftmunster_512x2.pt --results-path /tmp/res_repli/
+# This works (reduced learning rate):
+python driver_motivation.py -dc -lr 0.01 -e 50 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster_512x2.pt -nh 512 --results-path /tmp/res_repli/
+
+python train_basemodel.py -dc -r /home/romilb/datasets/cityscapes_raw/ -cp /home/researcher/models_test/pretrained_cityscapes_64.pt -nh 64 --lists-train frankfurt,munster --lists-val frankfurt,munster
+
+# New profile generation
+python driver_profiles.py -dc -e 30 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster_ --results-path /home/researcher/results_profile/ -nt 10 -nsp 3 -dtfs --validation-frequency 3

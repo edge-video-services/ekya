@@ -1,0 +1,24 @@
+# Format for {id}_profile.json
+JobProfile = {
+  task_id (str): [TaskProfile]
+  }
+
+TaskProfile = [[timestamp when the epoch was started,
+                train_time, train_loss, train_accuracy, num_train_samples_in_epoch,
+                val_time, val_loss, val_accuracy, num_val_samples_in_epoch,
+                test_time, test_loss, test_accuracy, num_test_samples_in_epoch] ....]
+
+
+# Format for {id}_retraining_result.json
+RetrainingResult = {
+{"val_acc": {task_id(str): val_acc, ... },
+"test_acc": {task_id(str): test_acc, ...}}
+}
+
+
+# Format for {id}_subprofile_test.json
+SubprofileTest = {
+    train_task_id(str): {
+                        subprofile_epoch_num (int): {
+                                                    test_task_id (str): test_acc (float) }}
+}

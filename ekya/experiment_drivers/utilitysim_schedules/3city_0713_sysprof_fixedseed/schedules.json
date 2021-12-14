@@ -1,0 +1,2462 @@
+{
+  "100_1_fair_dumb_True": {
+    "1": {
+      "0": {
+        "jena_0_train_4_17": 0.16666666666666666,
+        "zurich_1_train_2_8": 0.16666666666666666,
+        "cologne_2_train_3_17": 0.16666666666666666,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "128.49404668807983": {
+        "cologne_2_train_3_17": 0,
+        "jena_0_train_4_17": 0.19999999999999998,
+        "zurich_1_train_2_8": 0.19999999999999998,
+        "jena_0_inference": 0.19999999999999998,
+        "zurich_1_inference": 0.19999999999999998,
+        "cologne_2_inference": 0.19999999999999998
+      },
+      "249.3261787891388": {
+        "cologne_2_train_3_17": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_train_4_17": 0.24999999999999997,
+        "jena_0_inference": 0.24999999999999997,
+        "zurich_1_inference": 0.24999999999999997,
+        "cologne_2_inference": 0.24999999999999997
+      },
+      "493.1158859729767": {
+        "jena_0_train_4_17": 0,
+        "cologne_2_train_3_17": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "2": {
+      "0": {
+        "jena_0_train_2_8": 0.2,
+        "cologne_2_train_4_29": 0.2,
+        "jena_0_inference": 0.2,
+        "zurich_1_inference": 0.2,
+        "cologne_2_inference": 0.2
+      },
+      "230.275616645813": {
+        "jena_0_train_2_8": 0,
+        "cologne_2_train_4_29": 0.25,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "788.8056011199951": {
+        "jena_0_train_2_8": 0,
+        "cologne_2_train_4_29": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "3": {
+      "0": {
+        "jena_0_train_2_29": 0.16666666666666666,
+        "zurich_1_train_2_8": 0.16666666666666666,
+        "cologne_2_train_3_8": 0.16666666666666666,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "68.88624715805054": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_29": 0.19999999999999998,
+        "zurich_1_train_2_8": 0.19999999999999998,
+        "jena_0_inference": 0.19999999999999998,
+        "zurich_1_inference": 0.19999999999999998,
+        "cologne_2_inference": 0.19999999999999998
+      },
+      "246.38121771812442": {
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_train_2_29": 0.24999999999999997,
+        "jena_0_inference": 0.24999999999999997,
+        "zurich_1_inference": 0.24999999999999997,
+        "cologne_2_inference": 0.24999999999999997
+      },
+      "682.8065202236177": {
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_train_2_29": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "4": {
+      "0": {
+        "jena_0_train_3_29": 0.2,
+        "zurich_1_train_3_29": 0.2,
+        "jena_0_inference": 0.2,
+        "zurich_1_inference": 0.2,
+        "cologne_2_inference": 0.2
+      },
+      "185.87777495384216": {
+        "jena_0_train_3_29": 0,
+        "zurich_1_train_3_29": 0.25,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "186.50511145591736": {
+        "jena_0_train_3_29": 0,
+        "zurich_1_train_3_29": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "5": {
+      "0": {
+        "jena_0_train_1_29": 0.16666666666666666,
+        "zurich_1_train_5_29": 0.16666666666666666,
+        "cologne_2_train_2_8": 0.16666666666666666,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "309.3972487449646": {
+        "cologne_2_train_2_8": 0,
+        "jena_0_train_1_29": 0.19999999999999998,
+        "zurich_1_train_5_29": 0.19999999999999998,
+        "jena_0_inference": 0.19999999999999998,
+        "zurich_1_inference": 0.19999999999999998,
+        "cologne_2_inference": 0.19999999999999998
+      },
+      "453.06839179992676": {
+        "jena_0_train_1_29": 0,
+        "cologne_2_train_2_8": 0,
+        "zurich_1_train_5_29": 0.24999999999999997,
+        "jena_0_inference": 0.24999999999999997,
+        "zurich_1_inference": 0.24999999999999997,
+        "cologne_2_inference": 0.24999999999999997
+      },
+      "1655.5727415084841": {
+        "zurich_1_train_5_29": 0,
+        "jena_0_train_1_29": 0,
+        "cologne_2_train_2_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "6": {
+      "0": {
+        "jena_0_train_2_8": 0.16666666666666666,
+        "zurich_1_train_2_17": 0.16666666666666666,
+        "cologne_2_train_3_8": 0.16666666666666666,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "74.24574851989746": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0.19999999999999998,
+        "zurich_1_train_2_17": 0.19999999999999998,
+        "jena_0_inference": 0.19999999999999998,
+        "zurich_1_inference": 0.19999999999999998,
+        "cologne_2_inference": 0.19999999999999998
+      },
+      "255.0258004665375": {
+        "jena_0_train_2_8": 0,
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_17": 0.24999999999999997,
+        "jena_0_inference": 0.24999999999999997,
+        "zurich_1_inference": 0.24999999999999997,
+        "cologne_2_inference": 0.24999999999999997
+      },
+      "453.74702715873724": {
+        "zurich_1_train_2_17": 0,
+        "jena_0_train_2_8": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "7": {
+      "0": {
+        "jena_0_train_3_29": 0.16666666666666666,
+        "zurich_1_train_2_8": 0.16666666666666666,
+        "cologne_2_train_3_8": 0.16666666666666666,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "76.37807750701904": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0.19999999999999998,
+        "zurich_1_train_2_8": 0.19999999999999998,
+        "jena_0_inference": 0.19999999999999998,
+        "zurich_1_inference": 0.19999999999999998,
+        "cologne_2_inference": 0.19999999999999998
+      },
+      "206.51176595687866": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0,
+        "zurich_1_train_2_8": 0.24999999999999997,
+        "jena_0_inference": 0.24999999999999997,
+        "zurich_1_inference": 0.24999999999999997,
+        "cologne_2_inference": 0.24999999999999997
+      },
+      "250.92633962631228": {
+        "zurich_1_train_2_8": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "8": {
+      "0": {
+        "jena_0_train_5_8": 0.16666666666666666,
+        "zurich_1_train_3_29": 0.16666666666666666,
+        "cologne_2_train_3_8": 0.16666666666666666,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "78.63238048553467": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_5_8": 0.19999999999999998,
+        "zurich_1_train_3_29": 0.19999999999999998,
+        "jena_0_inference": 0.19999999999999998,
+        "zurich_1_inference": 0.19999999999999998,
+        "cologne_2_inference": 0.19999999999999998
+      },
+      "212.46865940093994": {
+        "zurich_1_train_3_29": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_5_8": 0.24999999999999997,
+        "jena_0_inference": 0.24999999999999997,
+        "zurich_1_inference": 0.24999999999999997,
+        "cologne_2_inference": 0.24999999999999997
+      },
+      "523.3812484741211": {
+        "zurich_1_train_3_29": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_5_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "9": {
+      "0": {
+        "zurich_1_train_2_8": 0.2,
+        "cologne_2_train_0_29": 0.2,
+        "jena_0_inference": 0.2,
+        "zurich_1_inference": 0.2,
+        "cologne_2_inference": 0.2
+      },
+      "96.23355746269226": {
+        "cologne_2_train_0_29": 0,
+        "zurich_1_train_2_8": 0.25,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "224.37555193901062": {
+        "cologne_2_train_0_29": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    }
+  },
+  "100_1_thief_True": {
+    "1": {
+      "0": {
+        "jena_0_train_3_29": 0.0,
+        "zurich_1_train_2_8": 0.0,
+        "cologne_2_train_3_8": 0.25000000000000006,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "42.759446144104": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0.05000000000000001,
+        "zurich_1_train_2_8": 0.05000000000000001,
+        "jena_0_inference": 0.3,
+        "zurich_1_inference": 0.3,
+        "cologne_2_inference": 0.3
+      },
+      "752.3099174499511": {
+        "jena_0_train_3_29": 0,
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_8": 0.06250000000000001,
+        "jena_0_inference": 0.3125,
+        "zurich_1_inference": 0.3125,
+        "cologne_2_inference": 0.3125
+      },
+      "913.9831542968749": {
+        "zurich_1_train_2_8": 0,
+        "jena_0_train_3_29": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "2": {
+      "0": {
+        "jena_0_train_0_8": 0.4,
+        "cologne_2_train_2_8": 0.0,
+        "jena_0_inference": 0.2,
+        "zurich_1_inference": 0.2,
+        "cologne_2_inference": 0.2
+      },
+      "11.595517992973328": {
+        "jena_0_train_0_8": 0,
+        "cologne_2_train_2_8": 0.1,
+        "jena_0_inference": 0.30000000000000004,
+        "zurich_1_inference": 0.30000000000000004,
+        "cologne_2_inference": 0.30000000000000004
+      },
+      "485.18612563610077": {
+        "cologne_2_train_2_8": 0,
+        "jena_0_train_0_8": 0,
+        "jena_0_inference": 0.33333333333333337,
+        "zurich_1_inference": 0.33333333333333337,
+        "cologne_2_inference": 0.33333333333333337
+      }
+    },
+    "3": {
+      "0": {
+        "jena_0_train_3_8": 0.25000000000000006,
+        "zurich_1_train_2_8": 0.0,
+        "cologne_2_train_3_8": 0.0,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "43.68373775482177": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_2_8": 0.05000000000000001,
+        "cologne_2_train_3_8": 0.05000000000000001,
+        "jena_0_inference": 0.3,
+        "zurich_1_inference": 0.3,
+        "cologne_2_inference": 0.3
+      },
+      "273.3045616149902": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_2_8": 0.06250000000000001,
+        "jena_0_inference": 0.3125,
+        "zurich_1_inference": 0.3125,
+        "cologne_2_inference": 0.3125
+      },
+      "841.2884674072263": {
+        "zurich_1_train_2_8": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "4": {
+      "0": {
+        "jena_0_train_3_8": 0.4,
+        "zurich_1_train_5_8": 0.0,
+        "jena_0_inference": 0.2,
+        "zurich_1_inference": 0.2,
+        "cologne_2_inference": 0.2
+      },
+      "27.716082334518433": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_5_8": 0.1,
+        "jena_0_inference": 0.30000000000000004,
+        "zurich_1_inference": 0.30000000000000004,
+        "cologne_2_inference": 0.30000000000000004
+      },
+      "1151.4863765239716": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_5_8": 0,
+        "jena_0_inference": 0.33333333333333337,
+        "zurich_1_inference": 0.33333333333333337,
+        "cologne_2_inference": 0.33333333333333337
+      }
+    },
+    "5": {
+      "0": {
+        "jena_0_train_5_29": 0.0,
+        "zurich_1_train_0_8": 0.4166666666666667,
+        "cologne_2_train_2_8": 0.0,
+        "jena_0_inference": 0.16666666666666669,
+        "zurich_1_inference": 0.16666666666666669,
+        "cologne_2_inference": 0.25
+      },
+      "11.695263862609863": {
+        "zurich_1_train_0_8": 0,
+        "jena_0_train_5_29": 0.08333333333333334,
+        "cologne_2_train_2_8": 0.08333333333333334,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.33333333333333337
+      },
+      "630.489761352539": {
+        "cologne_2_train_2_8": 0,
+        "zurich_1_train_0_8": 0,
+        "jena_0_train_5_29": 0.10416666666666669,
+        "jena_0_inference": 0.2708333333333333,
+        "zurich_1_inference": 0.2708333333333333,
+        "cologne_2_inference": 0.3541666666666667
+      },
+      "3750.9061729431146": {
+        "cologne_2_train_2_8": 0,
+        "zurich_1_train_0_8": 0,
+        "jena_0_train_5_29": 0,
+        "jena_0_inference": 0.3055555555555555,
+        "zurich_1_inference": 0.3055555555555555,
+        "cologne_2_inference": 0.3888888888888889
+      }
+    },
+    "6": {
+      "0": {
+        "jena_0_train_2_8": 0.0,
+        "zurich_1_train_3_8": 0.5,
+        "cologne_2_train_2_8": 0.0,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "22.892894744873047": {
+        "zurich_1_train_3_8": 0,
+        "jena_0_train_2_8": 0.1,
+        "cologne_2_train_2_8": 0.1,
+        "jena_0_inference": 0.26666666666666666,
+        "zurich_1_inference": 0.26666666666666666,
+        "cologne_2_inference": 0.26666666666666666
+      },
+      "508.1959128379822": {
+        "zurich_1_train_3_8": 0,
+        "jena_0_train_2_8": 0,
+        "cologne_2_train_2_8": 0.125,
+        "jena_0_inference": 0.2916666666666667,
+        "zurich_1_inference": 0.2916666666666667,
+        "cologne_2_inference": 0.2916666666666667
+      },
+      "542.0197253227234": {
+        "zurich_1_train_3_8": 0,
+        "jena_0_train_2_8": 0,
+        "cologne_2_train_2_8": 0,
+        "jena_0_inference": 0.33333333333333337,
+        "zurich_1_inference": 0.33333333333333337,
+        "cologne_2_inference": 0.33333333333333337
+      }
+    },
+    "7": {
+      "0": {
+        "jena_0_train_2_8": 0.0,
+        "zurich_1_train_2_8": 0.0,
+        "cologne_2_train_3_8": 0.25000000000000006,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "50.91871833801268": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0.05000000000000001,
+        "zurich_1_train_2_8": 0.05000000000000001,
+        "jena_0_inference": 0.3,
+        "zurich_1_inference": 0.3,
+        "cologne_2_inference": 0.3
+      },
+      "1037.5322256088255": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0,
+        "zurich_1_train_2_8": 0.06250000000000001,
+        "jena_0_inference": 0.3125,
+        "zurich_1_inference": 0.3125,
+        "cologne_2_inference": 0.3125
+      },
+      "1046.002390861511": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "8": {
+      "0": {
+        "jena_0_train_3_8": 0.4166666666666667,
+        "zurich_1_train_3_17": 0.0,
+        "cologne_2_train_3_8": 0.0,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.25
+      },
+      "28.05167427062988": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_3_17": 0.08333333333333334,
+        "cologne_2_train_3_8": 0.08333333333333334,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.33333333333333337
+      },
+      "185.3164352416992": {
+        "jena_0_train_3_8": 0,
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_3_17": 0.10416666666666669,
+        "jena_0_inference": 0.2708333333333333,
+        "zurich_1_inference": 0.2708333333333333,
+        "cologne_2_inference": 0.3541666666666667
+      },
+      "288.2713439941406": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_3_17": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_inference": 0.3055555555555555,
+        "zurich_1_inference": 0.3055555555555555,
+        "cologne_2_inference": 0.3888888888888889
+      }
+    },
+    "9": {
+      "0": {
+        "zurich_1_train_2_8": 0.0,
+        "cologne_2_train_0_8": 0.15000000000000008,
+        "jena_0_inference": 0.2833333333333333,
+        "zurich_1_inference": 0.2833333333333333,
+        "cologne_2_inference": 0.2833333333333333
+      },
+      "38.49349339803058": {
+        "cologne_2_train_0_8": 0,
+        "zurich_1_train_2_8": 0.03750000000000002,
+        "jena_0_inference": 0.32083333333333336,
+        "zurich_1_inference": 0.32083333333333336,
+        "cologne_2_inference": 0.32083333333333336
+      },
+      "1406.019096374511": {
+        "cologne_2_train_0_8": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_inference": 0.33333333333333337,
+        "zurich_1_inference": 0.33333333333333337,
+        "cologne_2_inference": 0.33333333333333337
+      }
+    }
+  },
+  "100_1_inference_only_True": {
+    "1": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "2": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "3": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "4": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "5": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "6": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "7": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "8": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "9": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    }
+  },
+  "100_2_fair_dumb_True": {
+    "1": {
+      "0": {
+        "jena_0_train_4_17": 0.3333333333333333,
+        "zurich_1_train_2_8": 0.3333333333333333,
+        "cologne_2_train_3_17": 0.3333333333333333,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "64.24702334403992": {
+        "cologne_2_train_3_17": 0,
+        "jena_0_train_4_17": 0.39999999999999997,
+        "zurich_1_train_2_8": 0.39999999999999997,
+        "jena_0_inference": 0.39999999999999997,
+        "zurich_1_inference": 0.39999999999999997,
+        "cologne_2_inference": 0.39999999999999997
+      },
+      "124.6630893945694": {
+        "zurich_1_train_2_8": 0,
+        "cologne_2_train_3_17": 0,
+        "jena_0_train_4_17": 0.49999999999999994,
+        "jena_0_inference": 0.49999999999999994,
+        "zurich_1_inference": 0.49999999999999994,
+        "cologne_2_inference": 0.49999999999999994
+      },
+      "246.55794298648834": {
+        "zurich_1_train_2_8": 0,
+        "jena_0_train_4_17": 0,
+        "cologne_2_train_3_17": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "2": {
+      "0": {
+        "jena_0_train_2_8": 0.4,
+        "cologne_2_train_4_29": 0.4,
+        "jena_0_inference": 0.4,
+        "zurich_1_inference": 0.4,
+        "cologne_2_inference": 0.4
+      },
+      "115.1378083229065": {
+        "jena_0_train_2_8": 0,
+        "cologne_2_train_4_29": 0.5,
+        "jena_0_inference": 0.5,
+        "zurich_1_inference": 0.5,
+        "cologne_2_inference": 0.5
+      },
+      "394.40280055999756": {
+        "jena_0_train_2_8": 0,
+        "cologne_2_train_4_29": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "3": {
+      "0": {
+        "jena_0_train_2_29": 0.3333333333333333,
+        "zurich_1_train_2_8": 0.3333333333333333,
+        "cologne_2_train_3_8": 0.3333333333333333,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "34.44312357902527": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_29": 0.39999999999999997,
+        "zurich_1_train_2_8": 0.39999999999999997,
+        "jena_0_inference": 0.39999999999999997,
+        "zurich_1_inference": 0.39999999999999997,
+        "cologne_2_inference": 0.39999999999999997
+      },
+      "123.19060885906221": {
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_train_2_29": 0.49999999999999994,
+        "jena_0_inference": 0.49999999999999994,
+        "zurich_1_inference": 0.49999999999999994,
+        "cologne_2_inference": 0.49999999999999994
+      },
+      "341.40326011180883": {
+        "jena_0_train_2_29": 0,
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "4": {
+      "0": {
+        "jena_0_train_3_29": 0.4,
+        "zurich_1_train_3_29": 0.4,
+        "jena_0_inference": 0.4,
+        "zurich_1_inference": 0.4,
+        "cologne_2_inference": 0.4
+      },
+      "92.93888747692108": {
+        "jena_0_train_3_29": 0,
+        "zurich_1_train_3_29": 0.5,
+        "jena_0_inference": 0.5,
+        "zurich_1_inference": 0.5,
+        "cologne_2_inference": 0.5
+      },
+      "93.25255572795868": {
+        "zurich_1_train_3_29": 0,
+        "jena_0_train_3_29": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "5": {
+      "0": {
+        "jena_0_train_1_29": 0.3333333333333333,
+        "zurich_1_train_5_29": 0.3333333333333333,
+        "cologne_2_train_2_8": 0.3333333333333333,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "154.6986243724823": {
+        "cologne_2_train_2_8": 0,
+        "jena_0_train_1_29": 0.39999999999999997,
+        "zurich_1_train_5_29": 0.39999999999999997,
+        "jena_0_inference": 0.39999999999999997,
+        "zurich_1_inference": 0.39999999999999997,
+        "cologne_2_inference": 0.39999999999999997
+      },
+      "226.53419589996338": {
+        "jena_0_train_1_29": 0,
+        "cologne_2_train_2_8": 0,
+        "zurich_1_train_5_29": 0.49999999999999994,
+        "jena_0_inference": 0.49999999999999994,
+        "zurich_1_inference": 0.49999999999999994,
+        "cologne_2_inference": 0.49999999999999994
+      },
+      "827.7863707542421": {
+        "jena_0_train_1_29": 0,
+        "zurich_1_train_5_29": 0,
+        "cologne_2_train_2_8": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "6": {
+      "0": {
+        "jena_0_train_2_8": 0.3333333333333333,
+        "zurich_1_train_2_17": 0.3333333333333333,
+        "cologne_2_train_3_8": 0.3333333333333333,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "37.12287425994873": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0.39999999999999997,
+        "zurich_1_train_2_17": 0.39999999999999997,
+        "jena_0_inference": 0.39999999999999997,
+        "zurich_1_inference": 0.39999999999999997,
+        "cologne_2_inference": 0.39999999999999997
+      },
+      "127.51290023326875": {
+        "jena_0_train_2_8": 0,
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_17": 0.49999999999999994,
+        "jena_0_inference": 0.49999999999999994,
+        "zurich_1_inference": 0.49999999999999994,
+        "cologne_2_inference": 0.49999999999999994
+      },
+      "226.87351357936862": {
+        "zurich_1_train_2_17": 0,
+        "jena_0_train_2_8": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "7": {
+      "0": {
+        "jena_0_train_3_29": 0.3333333333333333,
+        "zurich_1_train_2_8": 0.3333333333333333,
+        "cologne_2_train_3_8": 0.3333333333333333,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "38.18903875350952": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0.39999999999999997,
+        "zurich_1_train_2_8": 0.39999999999999997,
+        "jena_0_inference": 0.39999999999999997,
+        "zurich_1_inference": 0.39999999999999997,
+        "cologne_2_inference": 0.39999999999999997
+      },
+      "103.25588297843933": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0,
+        "zurich_1_train_2_8": 0.49999999999999994,
+        "jena_0_inference": 0.49999999999999994,
+        "zurich_1_inference": 0.49999999999999994,
+        "cologne_2_inference": 0.49999999999999994
+      },
+      "125.46316981315614": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "8": {
+      "0": {
+        "jena_0_train_5_8": 0.3333333333333333,
+        "zurich_1_train_3_29": 0.3333333333333333,
+        "cologne_2_train_3_8": 0.3333333333333333,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "39.316190242767334": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_5_8": 0.39999999999999997,
+        "zurich_1_train_3_29": 0.39999999999999997,
+        "jena_0_inference": 0.39999999999999997,
+        "zurich_1_inference": 0.39999999999999997,
+        "cologne_2_inference": 0.39999999999999997
+      },
+      "106.23432970046997": {
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_3_29": 0,
+        "jena_0_train_5_8": 0.49999999999999994,
+        "jena_0_inference": 0.49999999999999994,
+        "zurich_1_inference": 0.49999999999999994,
+        "cologne_2_inference": 0.49999999999999994
+      },
+      "261.69062423706055": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_5_8": 0,
+        "zurich_1_train_3_29": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "9": {
+      "0": {
+        "zurich_1_train_2_8": 0.4,
+        "cologne_2_train_0_29": 0.4,
+        "jena_0_inference": 0.4,
+        "zurich_1_inference": 0.4,
+        "cologne_2_inference": 0.4
+      },
+      "48.11677873134613": {
+        "cologne_2_train_0_29": 0,
+        "zurich_1_train_2_8": 0.5,
+        "jena_0_inference": 0.5,
+        "zurich_1_inference": 0.5,
+        "cologne_2_inference": 0.5
+      },
+      "112.18777596950531": {
+        "cologne_2_train_0_29": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    }
+  },
+  "100_2_thief_True": {
+    "1": {
+      "0": {
+        "jena_0_train_3_29": 0.0,
+        "zurich_1_train_3_8": 0.2500000000000001,
+        "cologne_2_train_3_17": 1.0,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "21.415674448013306": {
+        "cologne_2_train_3_17": 0,
+        "jena_0_train_3_29": 0.2,
+        "zurich_1_train_3_8": 0.4500000000000001,
+        "jena_0_inference": 0.45,
+        "zurich_1_inference": 0.45,
+        "cologne_2_inference": 0.45
+      },
+      "33.15326362186007": {
+        "cologne_2_train_3_17": 0,
+        "zurich_1_train_3_8": 0,
+        "jena_0_train_3_29": 0.31250000000000006,
+        "jena_0_inference": 0.5625,
+        "zurich_1_inference": 0.5625,
+        "cologne_2_inference": 0.5625
+      },
+      "139.16928195953366": {
+        "cologne_2_train_3_17": 0,
+        "jena_0_train_3_29": 0,
+        "zurich_1_train_3_8": 0,
+        "jena_0_inference": 0.6666666666666667,
+        "zurich_1_inference": 0.6666666666666667,
+        "cologne_2_inference": 0.6666666666666667
+      }
+    },
+    "2": {
+      "0": {
+        "jena_0_train_3_8": 0.9833333333333333,
+        "cologne_2_train_3_8": 0.15000000000000002,
+        "jena_0_inference": 0.2333333333333334,
+        "zurich_1_inference": 0.3166666666666667,
+        "cologne_2_inference": 0.3166666666666667
+      },
+      "10.891436237399862": {
+        "jena_0_train_3_8": 0,
+        "cologne_2_train_3_8": 0.39583333333333337,
+        "jena_0_inference": 0.47916666666666674,
+        "zurich_1_inference": 0.5625,
+        "cologne_2_inference": 0.5625
+      },
+      "34.72238339875874": {
+        "jena_0_train_3_8": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_inference": 0.6111111111111112,
+        "zurich_1_inference": 0.6944444444444444,
+        "cologne_2_inference": 0.6944444444444444
+      }
+    },
+    "3": {
+      "0": {
+        "jena_0_train_3_8": 0.7500000000000001,
+        "zurich_1_train_2_8": 0.0,
+        "cologne_2_train_3_8": 0.5,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "14.561245918273924": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_2_8": 0.15000000000000002,
+        "cologne_2_train_3_8": 0.65,
+        "jena_0_inference": 0.4,
+        "zurich_1_inference": 0.4,
+        "cologne_2_inference": 0.4
+      },
+      "21.02342781653771": {
+        "jena_0_train_3_8": 0,
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_8": 0.3125,
+        "jena_0_inference": 0.5625,
+        "zurich_1_inference": 0.5625,
+        "cologne_2_inference": 0.5625
+      },
+      "168.2576934814453": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_2_8": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "4": {
+      "0": {
+        "jena_0_train_3_8": 0.8166666666666667,
+        "zurich_1_train_3_17": 0.4833333333333334,
+        "jena_0_inference": 0.23333333333333336,
+        "zurich_1_inference": 0.23333333333333336,
+        "cologne_2_inference": 0.23333333333333336
+      },
+      "13.575224000580457": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_3_17": 0.6875,
+        "jena_0_inference": 0.4375,
+        "zurich_1_inference": 0.4375,
+        "cologne_2_inference": 0.4375
+      },
+      "36.47761483625932": {
+        "zurich_1_train_3_17": 0,
+        "jena_0_train_3_8": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "5": {
+      "0": {
+        "jena_0_train_0_8": 0.33333333333333337,
+        "zurich_1_train_0_8": 0.8333333333333333,
+        "cologne_2_train_2_8": 0.0,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "5.8476319313049325": {
+        "zurich_1_train_0_8": 0,
+        "jena_0_train_0_8": 0.5,
+        "cologne_2_train_2_8": 0.16666666666666666,
+        "jena_0_inference": 0.41666666666666663,
+        "zurich_1_inference": 0.41666666666666663,
+        "cologne_2_inference": 0.5
+      },
+      "11.678776741027832": {
+        "zurich_1_train_0_8": 0,
+        "jena_0_train_0_8": 0,
+        "cologne_2_train_2_8": 0.29166666666666663,
+        "jena_0_inference": 0.5416666666666666,
+        "zurich_1_inference": 0.5416666666666666,
+        "cologne_2_inference": 0.625
+      },
+      "185.14512184688027": {
+        "jena_0_train_0_8": 0,
+        "zurich_1_train_0_8": 0,
+        "cologne_2_train_2_8": 0,
+        "jena_0_inference": 0.6388888888888888,
+        "zurich_1_inference": 0.6388888888888888,
+        "cologne_2_inference": 0.7222222222222222
+      }
+    },
+    "6": {
+      "0": {
+        "jena_0_train_2_8": 0.0,
+        "zurich_1_train_3_8": 1.1666666666666665,
+        "cologne_2_train_0_8": 0.08333333333333331,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "9.811240604945592": {
+        "zurich_1_train_3_8": 0,
+        "jena_0_train_2_8": 0.2333333333333333,
+        "cologne_2_train_0_8": 0.31666666666666665,
+        "jena_0_inference": 0.4833333333333333,
+        "zurich_1_inference": 0.4833333333333333,
+        "cologne_2_inference": 0.4833333333333333
+      },
+      "24.13281139574553": {
+        "cologne_2_train_0_8": 0,
+        "zurich_1_train_3_8": 0,
+        "jena_0_train_2_8": 0.3125,
+        "jena_0_inference": 0.5625,
+        "zurich_1_inference": 0.5625,
+        "cologne_2_inference": 0.5625
+      },
+      "168.73633766174316": {
+        "jena_0_train_2_8": 0,
+        "cologne_2_train_0_8": 0,
+        "zurich_1_train_3_8": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "7": {
+      "0": {
+        "jena_0_train_3_8": 0.5000000000000001,
+        "zurich_1_train_2_8": 0.0,
+        "cologne_2_train_3_8": 0.75,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "16.9729061126709": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_8": 0.6500000000000001,
+        "zurich_1_train_2_8": 0.15,
+        "jena_0_inference": 0.4,
+        "zurich_1_inference": 0.4,
+        "cologne_2_inference": 0.4
+      },
+      "21.690350019014794": {
+        "jena_0_train_3_8": 0,
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_8": 0.3125,
+        "jena_0_inference": 0.5625,
+        "zurich_1_inference": 0.5625,
+        "cologne_2_inference": 0.5625
+      },
+      "178.97817115783693": {
+        "zurich_1_train_2_8": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_8": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "8": {
+      "0": {
+        "jena_0_train_3_8": 0.9166666666666666,
+        "zurich_1_train_3_17": 0.0,
+        "cologne_2_train_3_8": 0.3333333333333333,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "12.750761032104492": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_3_17": 0.18333333333333332,
+        "cologne_2_train_3_8": 0.5166666666666666,
+        "jena_0_inference": 0.43333333333333335,
+        "zurich_1_inference": 0.43333333333333335,
+        "cologne_2_inference": 0.43333333333333335
+      },
+      "29.88974761962891": {
+        "jena_0_train_3_8": 0,
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_3_17": 0.3125,
+        "jena_0_inference": 0.5625,
+        "zurich_1_inference": 0.5625,
+        "cologne_2_inference": 0.5625
+      },
+      "96.09044799804687": {
+        "jena_0_train_3_8": 0,
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_3_17": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "9": {
+      "0": {
+        "zurich_1_train_2_8": 0.0,
+        "cologne_2_train_0_29": 1.05,
+        "jena_0_inference": 0.3166666666666667,
+        "zurich_1_inference": 0.3166666666666667,
+        "cologne_2_inference": 0.3166666666666667
+      },
+      "18.33020142146519": {
+        "cologne_2_train_0_29": 0,
+        "zurich_1_train_2_8": 0.2625,
+        "jena_0_inference": 0.5791666666666667,
+        "zurich_1_inference": 0.5791666666666667,
+        "cologne_2_inference": 0.5791666666666667
+      },
+      "213.69100184667678": {
+        "cologne_2_train_0_29": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_inference": 0.6666666666666667,
+        "zurich_1_inference": 0.6666666666666667,
+        "cologne_2_inference": 0.6666666666666667
+      }
+    }
+  },
+  "100_2_inference_only_True": {
+    "1": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "2": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "3": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "4": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "5": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "6": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "7": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "8": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "9": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    }
+  },
+  "200_1_fair_dumb_True": {
+    "1": {
+      "0": {
+        "jena_0_train_4_17": 0.16666666666666666,
+        "zurich_1_train_2_8": 0.16666666666666666,
+        "cologne_2_train_3_17": 0.16666666666666666,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "128.49404668807983": {
+        "cologne_2_train_3_17": 0,
+        "jena_0_train_4_17": 0.19999999999999998,
+        "zurich_1_train_2_8": 0.19999999999999998,
+        "jena_0_inference": 0.19999999999999998,
+        "zurich_1_inference": 0.19999999999999998,
+        "cologne_2_inference": 0.19999999999999998
+      },
+      "249.3261787891388": {
+        "zurich_1_train_2_8": 0,
+        "cologne_2_train_3_17": 0,
+        "jena_0_train_4_17": 0.24999999999999997,
+        "jena_0_inference": 0.24999999999999997,
+        "zurich_1_inference": 0.24999999999999997,
+        "cologne_2_inference": 0.24999999999999997
+      },
+      "493.1158859729767": {
+        "zurich_1_train_2_8": 0,
+        "jena_0_train_4_17": 0,
+        "cologne_2_train_3_17": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "2": {
+      "0": {
+        "jena_0_train_2_8": 0.2,
+        "cologne_2_train_4_29": 0.2,
+        "jena_0_inference": 0.2,
+        "zurich_1_inference": 0.2,
+        "cologne_2_inference": 0.2
+      },
+      "230.275616645813": {
+        "jena_0_train_2_8": 0,
+        "cologne_2_train_4_29": 0.25,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "788.8056011199951": {
+        "cologne_2_train_4_29": 0,
+        "jena_0_train_2_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "3": {
+      "0": {
+        "jena_0_train_2_29": 0.16666666666666666,
+        "zurich_1_train_2_8": 0.16666666666666666,
+        "cologne_2_train_3_8": 0.16666666666666666,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "68.88624715805054": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_29": 0.19999999999999998,
+        "zurich_1_train_2_8": 0.19999999999999998,
+        "jena_0_inference": 0.19999999999999998,
+        "zurich_1_inference": 0.19999999999999998,
+        "cologne_2_inference": 0.19999999999999998
+      },
+      "246.38121771812442": {
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_train_2_29": 0.24999999999999997,
+        "jena_0_inference": 0.24999999999999997,
+        "zurich_1_inference": 0.24999999999999997,
+        "cologne_2_inference": 0.24999999999999997
+      },
+      "682.8065202236177": {
+        "jena_0_train_2_29": 0,
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "4": {
+      "0": {
+        "jena_0_train_3_29": 0.2,
+        "zurich_1_train_3_29": 0.2,
+        "jena_0_inference": 0.2,
+        "zurich_1_inference": 0.2,
+        "cologne_2_inference": 0.2
+      },
+      "185.87777495384216": {
+        "jena_0_train_3_29": 0,
+        "zurich_1_train_3_29": 0.25,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "186.50511145591736": {
+        "jena_0_train_3_29": 0,
+        "zurich_1_train_3_29": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "5": {
+      "0": {
+        "jena_0_train_1_29": 0.16666666666666666,
+        "zurich_1_train_5_29": 0.16666666666666666,
+        "cologne_2_train_2_8": 0.16666666666666666,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "309.3972487449646": {
+        "cologne_2_train_2_8": 0,
+        "jena_0_train_1_29": 0.19999999999999998,
+        "zurich_1_train_5_29": 0.19999999999999998,
+        "jena_0_inference": 0.19999999999999998,
+        "zurich_1_inference": 0.19999999999999998,
+        "cologne_2_inference": 0.19999999999999998
+      },
+      "453.06839179992676": {
+        "jena_0_train_1_29": 0,
+        "cologne_2_train_2_8": 0,
+        "zurich_1_train_5_29": 0.24999999999999997,
+        "jena_0_inference": 0.24999999999999997,
+        "zurich_1_inference": 0.24999999999999997,
+        "cologne_2_inference": 0.24999999999999997
+      },
+      "1655.5727415084841": {
+        "jena_0_train_1_29": 0,
+        "zurich_1_train_5_29": 0,
+        "cologne_2_train_2_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "6": {
+      "0": {
+        "jena_0_train_2_8": 0.16666666666666666,
+        "zurich_1_train_2_17": 0.16666666666666666,
+        "cologne_2_train_3_8": 0.16666666666666666,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "74.24574851989746": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0.19999999999999998,
+        "zurich_1_train_2_17": 0.19999999999999998,
+        "jena_0_inference": 0.19999999999999998,
+        "zurich_1_inference": 0.19999999999999998,
+        "cologne_2_inference": 0.19999999999999998
+      },
+      "255.0258004665375": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0,
+        "zurich_1_train_2_17": 0.24999999999999997,
+        "jena_0_inference": 0.24999999999999997,
+        "zurich_1_inference": 0.24999999999999997,
+        "cologne_2_inference": 0.24999999999999997
+      },
+      "453.74702715873724": {
+        "zurich_1_train_2_17": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "7": {
+      "0": {
+        "jena_0_train_3_29": 0.16666666666666666,
+        "zurich_1_train_2_8": 0.16666666666666666,
+        "cologne_2_train_3_8": 0.16666666666666666,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "76.37807750701904": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0.19999999999999998,
+        "zurich_1_train_2_8": 0.19999999999999998,
+        "jena_0_inference": 0.19999999999999998,
+        "zurich_1_inference": 0.19999999999999998,
+        "cologne_2_inference": 0.19999999999999998
+      },
+      "206.51176595687866": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0,
+        "zurich_1_train_2_8": 0.24999999999999997,
+        "jena_0_inference": 0.24999999999999997,
+        "zurich_1_inference": 0.24999999999999997,
+        "cologne_2_inference": 0.24999999999999997
+      },
+      "250.92633962631228": {
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_train_3_29": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "8": {
+      "0": {
+        "jena_0_train_5_8": 0.16666666666666666,
+        "zurich_1_train_3_29": 0.16666666666666666,
+        "cologne_2_train_3_8": 0.16666666666666666,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "78.63238048553467": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_5_8": 0.19999999999999998,
+        "zurich_1_train_3_29": 0.19999999999999998,
+        "jena_0_inference": 0.19999999999999998,
+        "zurich_1_inference": 0.19999999999999998,
+        "cologne_2_inference": 0.19999999999999998
+      },
+      "212.46865940093994": {
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_3_29": 0,
+        "jena_0_train_5_8": 0.24999999999999997,
+        "jena_0_inference": 0.24999999999999997,
+        "zurich_1_inference": 0.24999999999999997,
+        "cologne_2_inference": 0.24999999999999997
+      },
+      "523.3812484741211": {
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_3_29": 0,
+        "jena_0_train_5_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "9": {
+      "0": {
+        "zurich_1_train_2_8": 0.2,
+        "cologne_2_train_0_29": 0.2,
+        "jena_0_inference": 0.2,
+        "zurich_1_inference": 0.2,
+        "cologne_2_inference": 0.2
+      },
+      "96.23355746269226": {
+        "cologne_2_train_0_29": 0,
+        "zurich_1_train_2_8": 0.25,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "224.37555193901062": {
+        "cologne_2_train_0_29": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    }
+  },
+  "200_1_thief_True": {
+    "1": {
+      "0": {
+        "jena_0_train_3_29": 0.0,
+        "zurich_1_train_2_8": 0.0,
+        "cologne_2_train_3_17": 0.4166666666666667,
+        "jena_0_inference": 0.16666666666666669,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "51.39761867523193": {
+        "cologne_2_train_3_17": 0,
+        "jena_0_train_3_29": 0.08333333333333334,
+        "zurich_1_train_2_8": 0.08333333333333334,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.33333333333333337,
+        "cologne_2_inference": 0.25
+      },
+      "477.12790145874015": {
+        "cologne_2_train_3_17": 0,
+        "jena_0_train_3_29": 0,
+        "zurich_1_train_2_8": 0.10416666666666669,
+        "jena_0_inference": 0.2708333333333333,
+        "zurich_1_inference": 0.3541666666666667,
+        "cologne_2_inference": 0.2708333333333333
+      },
+      "574.1318435668944": {
+        "zurich_1_train_2_8": 0,
+        "cologne_2_train_3_17": 0,
+        "jena_0_train_3_29": 0,
+        "jena_0_inference": 0.3055555555555555,
+        "zurich_1_inference": 0.3888888888888889,
+        "cologne_2_inference": 0.3055555555555555
+      }
+    },
+    "2": {
+      "0": {
+        "jena_0_train_3_8": 0.4,
+        "cologne_2_train_2_8": 0.0,
+        "jena_0_inference": 0.2,
+        "zurich_1_inference": 0.2,
+        "cologne_2_inference": 0.2
+      },
+      "26.774780750274658": {
+        "jena_0_train_3_8": 0,
+        "cologne_2_train_2_8": 0.1,
+        "jena_0_inference": 0.30000000000000004,
+        "zurich_1_inference": 0.30000000000000004,
+        "cologne_2_inference": 0.30000000000000004
+      },
+      "500.3653883934021": {
+        "jena_0_train_3_8": 0,
+        "cologne_2_train_2_8": 0,
+        "jena_0_inference": 0.33333333333333337,
+        "zurich_1_inference": 0.33333333333333337,
+        "cologne_2_inference": 0.33333333333333337
+      }
+    },
+    "3": {
+      "0": {
+        "jena_0_train_3_8": 0.5,
+        "zurich_1_train_2_8": 0.0,
+        "cologne_2_train_3_8": 0.0,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "21.84186887741089": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_2_8": 0.1,
+        "cologne_2_train_3_8": 0.1,
+        "jena_0_inference": 0.26666666666666666,
+        "zurich_1_inference": 0.26666666666666666,
+        "cologne_2_inference": 0.26666666666666666
+      },
+      "136.65228080749512": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_2_8": 0.125,
+        "jena_0_inference": 0.2916666666666667,
+        "zurich_1_inference": 0.2916666666666667,
+        "cologne_2_inference": 0.2916666666666667
+      },
+      "420.6442337036133": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_inference": 0.33333333333333337,
+        "zurich_1_inference": 0.33333333333333337,
+        "cologne_2_inference": 0.33333333333333337
+      }
+    },
+    "4": {
+      "0": {
+        "jena_0_train_3_8": 0.4,
+        "zurich_1_train_5_8": 0.0,
+        "jena_0_inference": 0.2,
+        "zurich_1_inference": 0.2,
+        "cologne_2_inference": 0.2
+      },
+      "27.716082334518433": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_5_8": 0.1,
+        "jena_0_inference": 0.30000000000000004,
+        "zurich_1_inference": 0.30000000000000004,
+        "cologne_2_inference": 0.30000000000000004
+      },
+      "1151.4863765239716": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_5_8": 0,
+        "jena_0_inference": 0.33333333333333337,
+        "zurich_1_inference": 0.33333333333333337,
+        "cologne_2_inference": 0.33333333333333337
+      }
+    },
+    "5": {
+      "0": {
+        "jena_0_train_5_29": 0.0,
+        "zurich_1_train_0_8": 0.4166666666666667,
+        "cologne_2_train_2_8": 0.0,
+        "jena_0_inference": 0.16666666666666669,
+        "zurich_1_inference": 0.16666666666666669,
+        "cologne_2_inference": 0.25
+      },
+      "11.695263862609863": {
+        "zurich_1_train_0_8": 0,
+        "jena_0_train_5_29": 0.08333333333333334,
+        "cologne_2_train_2_8": 0.08333333333333334,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.33333333333333337
+      },
+      "630.489761352539": {
+        "zurich_1_train_0_8": 0,
+        "cologne_2_train_2_8": 0,
+        "jena_0_train_5_29": 0.10416666666666669,
+        "jena_0_inference": 0.2708333333333333,
+        "zurich_1_inference": 0.2708333333333333,
+        "cologne_2_inference": 0.3541666666666667
+      },
+      "3750.9061729431146": {
+        "zurich_1_train_0_8": 0,
+        "jena_0_train_5_29": 0,
+        "cologne_2_train_2_8": 0,
+        "jena_0_inference": 0.3055555555555555,
+        "zurich_1_inference": 0.3055555555555555,
+        "cologne_2_inference": 0.3888888888888889
+      }
+    },
+    "6": {
+      "0": {
+        "jena_0_train_2_8": 0.0,
+        "zurich_1_train_3_8": 0.5,
+        "cologne_2_train_2_8": 0.0,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "22.892894744873047": {
+        "zurich_1_train_3_8": 0,
+        "jena_0_train_2_8": 0.1,
+        "cologne_2_train_2_8": 0.1,
+        "jena_0_inference": 0.26666666666666666,
+        "zurich_1_inference": 0.26666666666666666,
+        "cologne_2_inference": 0.26666666666666666
+      },
+      "508.1959128379822": {
+        "zurich_1_train_3_8": 0,
+        "jena_0_train_2_8": 0,
+        "cologne_2_train_2_8": 0.125,
+        "jena_0_inference": 0.2916666666666667,
+        "zurich_1_inference": 0.2916666666666667,
+        "cologne_2_inference": 0.2916666666666667
+      },
+      "542.0197253227234": {
+        "cologne_2_train_2_8": 0,
+        "zurich_1_train_3_8": 0,
+        "jena_0_train_2_8": 0,
+        "jena_0_inference": 0.33333333333333337,
+        "zurich_1_inference": 0.33333333333333337,
+        "cologne_2_inference": 0.33333333333333337
+      }
+    },
+    "7": {
+      "0": {
+        "jena_0_train_2_8": 0.0,
+        "zurich_1_train_2_8": 0.0,
+        "cologne_2_train_3_8": 0.25000000000000006,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "50.91871833801268": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0.05000000000000001,
+        "zurich_1_train_2_8": 0.05000000000000001,
+        "jena_0_inference": 0.3,
+        "zurich_1_inference": 0.3,
+        "cologne_2_inference": 0.3
+      },
+      "1037.5322256088255": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0,
+        "zurich_1_train_2_8": 0.06250000000000001,
+        "jena_0_inference": 0.3125,
+        "zurich_1_inference": 0.3125,
+        "cologne_2_inference": 0.3125
+      },
+      "1046.002390861511": {
+        "zurich_1_train_2_8": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "8": {
+      "0": {
+        "jena_0_train_3_8": 0.3333333333333333,
+        "zurich_1_train_3_17": 0.0,
+        "cologne_2_train_3_8": 0.16666666666666666,
+        "jena_0_inference": 0.16666666666666666,
+        "zurich_1_inference": 0.16666666666666666,
+        "cologne_2_inference": 0.16666666666666666
+      },
+      "35.06459283828735": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_3_17": 0.06666666666666667,
+        "cologne_2_train_3_8": 0.23333333333333334,
+        "jena_0_inference": 0.23333333333333334,
+        "zurich_1_inference": 0.23333333333333334,
+        "cologne_2_inference": 0.23333333333333334
+      },
+      "66.18444115774972": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_3_17": 0.125,
+        "jena_0_inference": 0.2916666666666667,
+        "zurich_1_inference": 0.2916666666666667,
+        "cologne_2_inference": 0.2916666666666667
+      },
+      "240.2261199951172": {
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_3_17": 0,
+        "jena_0_train_3_8": 0,
+        "jena_0_inference": 0.33333333333333337,
+        "zurich_1_inference": 0.33333333333333337,
+        "cologne_2_inference": 0.33333333333333337
+      }
+    },
+    "9": {
+      "0": {
+        "zurich_1_train_2_8": 0.0,
+        "cologne_2_train_0_29": 0.15000000000000008,
+        "jena_0_inference": 0.2833333333333333,
+        "zurich_1_inference": 0.2833333333333333,
+        "cologne_2_inference": 0.2833333333333333
+      },
+      "128.3114099502563": {
+        "cologne_2_train_0_29": 0,
+        "zurich_1_train_2_8": 0.03750000000000002,
+        "jena_0_inference": 0.32083333333333336,
+        "zurich_1_inference": 0.32083333333333336,
+        "cologne_2_inference": 0.32083333333333336
+      },
+      "1495.8370129267369": {
+        "zurich_1_train_2_8": 0,
+        "cologne_2_train_0_29": 0,
+        "jena_0_inference": 0.33333333333333337,
+        "zurich_1_inference": 0.33333333333333337,
+        "cologne_2_inference": 0.33333333333333337
+      }
+    }
+  },
+  "200_1_inference_only_True": {
+    "1": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "2": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "3": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "4": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "5": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "6": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "7": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "8": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    },
+    "9": {
+      "0": {
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      }
+    }
+  },
+  "200_2_fair_dumb_True": {
+    "1": {
+      "0": {
+        "jena_0_train_4_17": 0.3333333333333333,
+        "zurich_1_train_2_8": 0.3333333333333333,
+        "cologne_2_train_3_17": 0.3333333333333333,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "64.24702334403992": {
+        "cologne_2_train_3_17": 0,
+        "jena_0_train_4_17": 0.39999999999999997,
+        "zurich_1_train_2_8": 0.39999999999999997,
+        "jena_0_inference": 0.39999999999999997,
+        "zurich_1_inference": 0.39999999999999997,
+        "cologne_2_inference": 0.39999999999999997
+      },
+      "124.6630893945694": {
+        "cologne_2_train_3_17": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_train_4_17": 0.49999999999999994,
+        "jena_0_inference": 0.49999999999999994,
+        "zurich_1_inference": 0.49999999999999994,
+        "cologne_2_inference": 0.49999999999999994
+      },
+      "246.55794298648834": {
+        "cologne_2_train_3_17": 0,
+        "jena_0_train_4_17": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "2": {
+      "0": {
+        "jena_0_train_2_8": 0.4,
+        "cologne_2_train_4_29": 0.4,
+        "jena_0_inference": 0.4,
+        "zurich_1_inference": 0.4,
+        "cologne_2_inference": 0.4
+      },
+      "115.1378083229065": {
+        "jena_0_train_2_8": 0,
+        "cologne_2_train_4_29": 0.5,
+        "jena_0_inference": 0.5,
+        "zurich_1_inference": 0.5,
+        "cologne_2_inference": 0.5
+      },
+      "394.40280055999756": {
+        "cologne_2_train_4_29": 0,
+        "jena_0_train_2_8": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "3": {
+      "0": {
+        "jena_0_train_2_29": 0.3333333333333333,
+        "zurich_1_train_2_8": 0.3333333333333333,
+        "cologne_2_train_3_8": 0.3333333333333333,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "34.44312357902527": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_29": 0.39999999999999997,
+        "zurich_1_train_2_8": 0.39999999999999997,
+        "jena_0_inference": 0.39999999999999997,
+        "zurich_1_inference": 0.39999999999999997,
+        "cologne_2_inference": 0.39999999999999997
+      },
+      "123.19060885906221": {
+        "zurich_1_train_2_8": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_29": 0.49999999999999994,
+        "jena_0_inference": 0.49999999999999994,
+        "zurich_1_inference": 0.49999999999999994,
+        "cologne_2_inference": 0.49999999999999994
+      },
+      "341.40326011180883": {
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_train_2_29": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "4": {
+      "0": {
+        "jena_0_train_3_29": 0.4,
+        "zurich_1_train_3_29": 0.4,
+        "jena_0_inference": 0.4,
+        "zurich_1_inference": 0.4,
+        "cologne_2_inference": 0.4
+      },
+      "92.93888747692108": {
+        "jena_0_train_3_29": 0,
+        "zurich_1_train_3_29": 0.5,
+        "jena_0_inference": 0.5,
+        "zurich_1_inference": 0.5,
+        "cologne_2_inference": 0.5
+      },
+      "93.25255572795868": {
+        "zurich_1_train_3_29": 0,
+        "jena_0_train_3_29": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "5": {
+      "0": {
+        "jena_0_train_1_29": 0.3333333333333333,
+        "zurich_1_train_5_29": 0.3333333333333333,
+        "cologne_2_train_2_8": 0.3333333333333333,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "154.6986243724823": {
+        "cologne_2_train_2_8": 0,
+        "jena_0_train_1_29": 0.39999999999999997,
+        "zurich_1_train_5_29": 0.39999999999999997,
+        "jena_0_inference": 0.39999999999999997,
+        "zurich_1_inference": 0.39999999999999997,
+        "cologne_2_inference": 0.39999999999999997
+      },
+      "226.53419589996338": {
+        "cologne_2_train_2_8": 0,
+        "jena_0_train_1_29": 0,
+        "zurich_1_train_5_29": 0.49999999999999994,
+        "jena_0_inference": 0.49999999999999994,
+        "zurich_1_inference": 0.49999999999999994,
+        "cologne_2_inference": 0.49999999999999994
+      },
+      "827.7863707542421": {
+        "cologne_2_train_2_8": 0,
+        "jena_0_train_1_29": 0,
+        "zurich_1_train_5_29": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "6": {
+      "0": {
+        "jena_0_train_2_8": 0.3333333333333333,
+        "zurich_1_train_2_17": 0.3333333333333333,
+        "cologne_2_train_3_8": 0.3333333333333333,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "37.12287425994873": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0.39999999999999997,
+        "zurich_1_train_2_17": 0.39999999999999997,
+        "jena_0_inference": 0.39999999999999997,
+        "zurich_1_inference": 0.39999999999999997,
+        "cologne_2_inference": 0.39999999999999997
+      },
+      "127.51290023326875": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0,
+        "zurich_1_train_2_17": 0.49999999999999994,
+        "jena_0_inference": 0.49999999999999994,
+        "zurich_1_inference": 0.49999999999999994,
+        "cologne_2_inference": 0.49999999999999994
+      },
+      "226.87351357936862": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0,
+        "zurich_1_train_2_17": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "7": {
+      "0": {
+        "jena_0_train_3_29": 0.3333333333333333,
+        "zurich_1_train_2_8": 0.3333333333333333,
+        "cologne_2_train_3_8": 0.3333333333333333,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "38.18903875350952": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0.39999999999999997,
+        "zurich_1_train_2_8": 0.39999999999999997,
+        "jena_0_inference": 0.39999999999999997,
+        "zurich_1_inference": 0.39999999999999997,
+        "cologne_2_inference": 0.39999999999999997
+      },
+      "103.25588297843933": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0,
+        "zurich_1_train_2_8": 0.49999999999999994,
+        "jena_0_inference": 0.49999999999999994,
+        "zurich_1_inference": 0.49999999999999994,
+        "cologne_2_inference": 0.49999999999999994
+      },
+      "125.46316981315614": {
+        "zurich_1_train_2_8": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "8": {
+      "0": {
+        "jena_0_train_5_8": 0.3333333333333333,
+        "zurich_1_train_3_29": 0.3333333333333333,
+        "cologne_2_train_3_8": 0.3333333333333333,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "39.316190242767334": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_5_8": 0.39999999999999997,
+        "zurich_1_train_3_29": 0.39999999999999997,
+        "jena_0_inference": 0.39999999999999997,
+        "zurich_1_inference": 0.39999999999999997,
+        "cologne_2_inference": 0.39999999999999997
+      },
+      "106.23432970046997": {
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_3_29": 0,
+        "jena_0_train_5_8": 0.49999999999999994,
+        "jena_0_inference": 0.49999999999999994,
+        "zurich_1_inference": 0.49999999999999994,
+        "cologne_2_inference": 0.49999999999999994
+      },
+      "261.69062423706055": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_5_8": 0,
+        "zurich_1_train_3_29": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "9": {
+      "0": {
+        "zurich_1_train_2_8": 0.4,
+        "cologne_2_train_0_29": 0.4,
+        "jena_0_inference": 0.4,
+        "zurich_1_inference": 0.4,
+        "cologne_2_inference": 0.4
+      },
+      "48.11677873134613": {
+        "cologne_2_train_0_29": 0,
+        "zurich_1_train_2_8": 0.5,
+        "jena_0_inference": 0.5,
+        "zurich_1_inference": 0.5,
+        "cologne_2_inference": 0.5
+      },
+      "112.18777596950531": {
+        "zurich_1_train_2_8": 0,
+        "cologne_2_train_0_29": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    }
+  },
+  "200_2_thief_True": {
+    "1": {
+      "0": {
+        "jena_0_train_3_29": 0.0,
+        "zurich_1_train_3_8": 0.2500000000000001,
+        "cologne_2_train_3_17": 1.0,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "21.415674448013306": {
+        "cologne_2_train_3_17": 0,
+        "jena_0_train_3_29": 0.2,
+        "zurich_1_train_3_8": 0.4500000000000001,
+        "jena_0_inference": 0.45,
+        "zurich_1_inference": 0.45,
+        "cologne_2_inference": 0.45
+      },
+      "33.15326362186007": {
+        "cologne_2_train_3_17": 0,
+        "zurich_1_train_3_8": 0,
+        "jena_0_train_3_29": 0.31250000000000006,
+        "jena_0_inference": 0.5625,
+        "zurich_1_inference": 0.5625,
+        "cologne_2_inference": 0.5625
+      },
+      "139.16928195953366": {
+        "cologne_2_train_3_17": 0,
+        "zurich_1_train_3_8": 0,
+        "jena_0_train_3_29": 0,
+        "jena_0_inference": 0.6666666666666667,
+        "zurich_1_inference": 0.6666666666666667,
+        "cologne_2_inference": 0.6666666666666667
+      }
+    },
+    "2": {
+      "0": {
+        "jena_0_train_3_8": 0.9833333333333333,
+        "cologne_2_train_3_8": 0.15000000000000002,
+        "jena_0_inference": 0.2333333333333334,
+        "zurich_1_inference": 0.3166666666666667,
+        "cologne_2_inference": 0.3166666666666667
+      },
+      "10.891436237399862": {
+        "jena_0_train_3_8": 0,
+        "cologne_2_train_3_8": 0.39583333333333337,
+        "jena_0_inference": 0.47916666666666674,
+        "zurich_1_inference": 0.5625,
+        "cologne_2_inference": 0.5625
+      },
+      "34.72238339875874": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_8": 0,
+        "jena_0_inference": 0.6111111111111112,
+        "zurich_1_inference": 0.6944444444444444,
+        "cologne_2_inference": 0.6944444444444444
+      }
+    },
+    "3": {
+      "0": {
+        "jena_0_train_3_29": 0.8333333333333334,
+        "zurich_1_train_2_8": 0.0,
+        "cologne_2_train_3_8": 0.41666666666666663,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "27.554498863220218": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0.9166666666666667,
+        "zurich_1_train_2_8": 0.08333333333333333,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "42.456827441128816": {
+        "jena_0_train_3_29": 0,
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_8": 0.3125,
+        "jena_0_inference": 0.5625,
+        "zurich_1_inference": 0.5625,
+        "cologne_2_inference": 0.5625
+      },
+      "188.81898612976073": {
+        "jena_0_train_3_29": 0,
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_2_8": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "4": {
+      "0": {
+        "jena_0_train_3_8": 0.7333333333333332,
+        "zurich_1_train_3_29": 0.5666666666666667,
+        "jena_0_inference": 0.23333333333333334,
+        "zurich_1_inference": 0.23333333333333336,
+        "cologne_2_inference": 0.23333333333333334
+      },
+      "15.117863091555511": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_3_29": 0.75,
+        "jena_0_inference": 0.41666666666666663,
+        "zurich_1_inference": 0.41666666666666663,
+        "cologne_2_inference": 0.41666666666666663
+      },
+      "53.47199646631877": {
+        "zurich_1_train_3_29": 0,
+        "jena_0_train_3_8": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "5": {
+      "0": {
+        "jena_0_train_0_8": 0.33333333333333337,
+        "zurich_1_train_0_8": 0.8333333333333333,
+        "cologne_2_train_2_8": 0.0,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "5.8476319313049325": {
+        "zurich_1_train_0_8": 0,
+        "jena_0_train_0_8": 0.5,
+        "cologne_2_train_2_8": 0.16666666666666666,
+        "jena_0_inference": 0.41666666666666663,
+        "zurich_1_inference": 0.41666666666666663,
+        "cologne_2_inference": 0.5
+      },
+      "11.678776741027832": {
+        "jena_0_train_0_8": 0,
+        "zurich_1_train_0_8": 0,
+        "cologne_2_train_2_8": 0.29166666666666663,
+        "jena_0_inference": 0.5416666666666666,
+        "zurich_1_inference": 0.5416666666666666,
+        "cologne_2_inference": 0.625
+      },
+      "185.14512184688027": {
+        "jena_0_train_0_8": 0,
+        "cologne_2_train_2_8": 0,
+        "zurich_1_train_0_8": 0,
+        "jena_0_inference": 0.6388888888888888,
+        "zurich_1_inference": 0.6388888888888888,
+        "cologne_2_inference": 0.7222222222222222
+      }
+    },
+    "6": {
+      "0": {
+        "jena_0_train_2_8": 0.16666666666666663,
+        "zurich_1_train_3_8": 0.8333333333333334,
+        "cologne_2_train_3_8": 0.25,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "13.735736846923828": {
+        "zurich_1_train_3_8": 0,
+        "jena_0_train_2_8": 0.3333333333333333,
+        "cologne_2_train_3_8": 0.4166666666666667,
+        "jena_0_inference": 0.4166666666666667,
+        "zurich_1_inference": 0.4166666666666667,
+        "cologne_2_inference": 0.4166666666666667
+      },
+      "35.19259414672851": {
+        "zurich_1_train_3_8": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_2_8": 0.4375,
+        "jena_0_inference": 0.5208333333333334,
+        "zurich_1_inference": 0.5208333333333334,
+        "cologne_2_inference": 0.5208333333333334
+      },
+      "124.5382548740932": {
+        "jena_0_train_2_8": 0,
+        "zurich_1_train_3_8": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_inference": 0.6666666666666667,
+        "zurich_1_inference": 0.6666666666666667,
+        "cologne_2_inference": 0.6666666666666667
+      }
+    },
+    "7": {
+      "0": {
+        "jena_0_train_3_29": 0.8333333333333334,
+        "zurich_1_train_2_8": 0.0,
+        "cologne_2_train_3_8": 0.41666666666666663,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "30.55123100280762": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0.9166666666666667,
+        "zurich_1_train_2_8": 0.08333333333333333,
+        "jena_0_inference": 0.3333333333333333,
+        "zurich_1_inference": 0.3333333333333333,
+        "cologne_2_inference": 0.3333333333333333
+      },
+      "45.057112572409885": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0,
+        "zurich_1_train_2_8": 0.3125,
+        "jena_0_inference": 0.5625,
+        "zurich_1_inference": 0.5625,
+        "cologne_2_inference": 0.5625
+      },
+      "200.7410717010498": {
+        "zurich_1_train_2_8": 0,
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_29": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "8": {
+      "0": {
+        "jena_0_train_3_8": 0.9166666666666666,
+        "zurich_1_train_3_17": 0.0,
+        "cologne_2_train_3_8": 0.3333333333333333,
+        "jena_0_inference": 0.25,
+        "zurich_1_inference": 0.25,
+        "cologne_2_inference": 0.25
+      },
+      "12.750761032104492": {
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_3_17": 0.18333333333333332,
+        "cologne_2_train_3_8": 0.5166666666666666,
+        "jena_0_inference": 0.43333333333333335,
+        "zurich_1_inference": 0.43333333333333335,
+        "cologne_2_inference": 0.43333333333333335
+      },
+      "29.88974761962891": {
+        "cologne_2_train_3_8": 0,
+        "jena_0_train_3_8": 0,
+        "zurich_1_train_3_17": 0.3125,
+        "jena_0_inference": 0.5625,
+        "zurich_1_inference": 0.5625,
+        "cologne_2_inference": 0.5625
+      },
+      "96.09044799804687": {
+        "cologne_2_train_3_8": 0,
+        "zurich_1_train_3_17": 0,
+        "jena_0_train_3_8": 0,
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "9": {
+      "0": {
+        "zurich_1_train_2_8": 0.0,
+        "cologne_2_train_0_29": 1.05,
+        "jena_0_inference": 0.3166666666666667,
+        "zurich_1_inference": 0.3166666666666667,
+        "cologne_2_inference": 0.3166666666666667
+      },
+      "18.33020142146519": {
+        "cologne_2_train_0_29": 0,
+        "zurich_1_train_2_8": 0.2625,
+        "jena_0_inference": 0.5791666666666667,
+        "zurich_1_inference": 0.5791666666666667,
+        "cologne_2_inference": 0.5791666666666667
+      },
+      "213.69100184667678": {
+        "zurich_1_train_2_8": 0,
+        "cologne_2_train_0_29": 0,
+        "jena_0_inference": 0.6666666666666667,
+        "zurich_1_inference": 0.6666666666666667,
+        "cologne_2_inference": 0.6666666666666667
+      }
+    }
+  },
+  "200_2_inference_only_True": {
+    "1": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "2": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "3": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "4": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "5": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "6": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "7": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "8": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    },
+    "9": {
+      "0": {
+        "jena_0_inference": 0.6666666666666666,
+        "zurich_1_inference": 0.6666666666666666,
+        "cologne_2_inference": 0.6666666666666666
+      }
+    }
+  }
+}

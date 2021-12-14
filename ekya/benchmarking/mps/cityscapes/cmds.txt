@@ -1,0 +1,3 @@
+# New profile generation
+python driver_profiles.py -dc -e 30 -r /home/researcher/datasets/cityscapes/ -rp /home/researcher/models/pretrained_cityscapes_fftmunster_ --results-path /home/researcher/temp_results/ -nt 10 -nsp 3 -dtfs --validation-frequency 3
+python driver_profiles.py -dc -e 30 -r /home/romilb/datasets/cityscapes_raw/ -rp /home/romilb/research/msr/models/pretrained_cityscapes_fftmunster_ --results-path /tmp/temp_results/ -nt 10 -nsp 3 -dtfs --validation-frequency 3

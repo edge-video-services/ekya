@@ -1,0 +1,68 @@
+{
+  "0": {
+    "id": "0",
+    "num_hidden": 64,
+    "last_layer_only": true,
+    "learning_rate": 0.001,
+    "model_name": "resnet18",
+    "batch_size": 8,
+    "subsample": 0.1,
+    "momentum": 0.9,
+    "validation_freq": 3
+  },
+  "1": {
+    "id": "1",
+    "num_hidden": 64,
+    "last_layer_only": true,
+    "learning_rate": 0.001,
+    "model_name": "resnet18",
+    "batch_size": 8,
+    "subsample": 0.5,
+    "momentum": 0.9,
+    "validation_freq": 3
+  },
+  "2": {
+    "id": "2",
+    "num_hidden": 64,
+    "last_layer_only": true,
+    "learning_rate": 0.001,
+    "model_name": "resnet18",
+    "batch_size": 8,
+    "subsample": 1,
+    "momentum": 0.9,
+    "validation_freq": 3
+  },
+  "3": {
+    "id": "3",
+    "num_hidden": 1024,
+    "last_layer_only": false,
+    "learning_rate": 0.001,
+    "model_name": "resnet18",
+    "batch_size": 8,
+    "subsample": 0.1,
+    "momentum": 0.9,
+    "validation_freq": 3
+  },
+  "4": {
+    "id": "4",
+    "num_hidden": 1024,
+    "last_layer_only": false,
+    "learning_rate": 0.001,
+    "model_name": "resnet18",
+    "batch_size": 8,
+    "subsample": 0.5,
+    "momentum": 0.9,
+    "validation_freq": 3
+  },
+  "5": {
+    "id": "5",
+    "num_hidden": 1024,
+    "last_layer_only": false,
+    "learning_rate": 0.001,
+    "model_name": "resnet18",
+    "batch_size": 8,
+    "subsample": 1,
+    "momentum": 0.9,
+    "validation_freq": 3
+  }
+}

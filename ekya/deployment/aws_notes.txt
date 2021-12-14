@@ -1,0 +1,38 @@
+# Setting up EBS
+## Mount
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
+sudo mkdir /ekya
+sudo mount /dev/xvdf /ekya
+sudo chmod -R 777 /ekya
+
+
+
+## Set permissions
+sudo chmod -R ugo+wx .
+
+# Upload data
+rsync -arizLP . ekya-upload:/ekya/
+
+# Activate env
+source activate pytorch_p36
+
+# Setting up env
+pip install ray tensorflow waymo-open-dataset
+
+# Install ekya
+cd /ekya/ekya
+pip install -e .
+
+
+# Setup MPS\
+# set Ulimit to 65536 on aws https://stackoverflow.com/a/58564946
+
+sudo nvidia-smi -i 0,1,2,3 -c EXCLUSIVE_PROCESS
+sudo nvidia-smi -i 0,1,2,3 -r
+
+export CUDA_MPS_PIPE_DIRECTORY=/tmp/nvidia-mps
+mkdir /tmp/nvidia-log
+export CUDA_MPS_LOG_DIRECTORY=/tmp/nvidia-log
+nvidia-cuda-mps-control -d
+
+echo quit | nvidia-cuda-mps-control

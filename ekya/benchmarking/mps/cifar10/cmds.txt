@@ -1,0 +1,9 @@
+nvidia-smi -i 0 -c EXCLUSIVE_PROCESS
+export CUDA_MPS_PIPE_DIRECTORY=/tmp/nvidia-mps
+export CUDA_MPS_LOG_DIRECTORY=/tmp/nvidia-log
+nvidia-cuda-mps-control -d
+
+CUDA_MPS_ACTIVE_THREAD_PERCENTAGE=100 python main.py
+CUDA_MPS_ACTIVE_THREAD_PERCENTAGE=10 python main.py
+
+# percentage, epochtime
