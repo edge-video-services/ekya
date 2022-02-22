@@ -24,7 +24,6 @@ if __name__ == '__main__':
     TERMINATION_TASK = args['termination_task']
     root = args["root"]  # Dataset root
     sample_list_root = os.path.join(root, args["lists_root"])
-    # TODO: LACK OF PRETRAINED MIGHT BE THE REASON FOR REDUCED ACCURACY
     # pretrained_sample_names = args["lists_pretrained"].split(',')
     train_split = args["train_split"]
     pretrained_model_dir = args["restore_path"]

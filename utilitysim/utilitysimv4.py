@@ -1,3 +1,5 @@
+# This is a simulator to simulate resource sharing for continuous learning
+# workloads from real measured profiles of training and inference jobs.
 import logging
 import copy
 from collections import defaultdict
@@ -7,7 +9,6 @@ from numpy import arctanh, tanh
 import numpy as np
 from numpy.testing import assert_almost_equal
 
-#v4 has separate profiles for oracle and scheduler (predicted)
 
 INFINITY = 9999999
 INSTA_CHECKPOINT = False
