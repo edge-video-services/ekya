@@ -4,7 +4,7 @@ Given a set of video streams and pre-trained models, Ekya can continuously fine-
 
 At the core of Ekya is the Thief Scheduler, which operates by stealing small resource chunks from a selected job and reallocating them to a more promising job. The thief scheduler obtains information about the "promise" of a job through the micro-profiling mechanism, which runs each retraining job for a short duration to estimate it's future performance.
 
-This architecture diagram highlights the flow of data in Ekya. More details can be found in our NSDI 2022 paper available [here](https://github.com/ekya-project/ekya/raw/main/assets/Ekya_nsdi22_camready.pdf).
+This architecture diagram highlights the flow of data in Ekya. More details can be found in our NSDI 2022 paper available [here](https://github.com/edge-video-services/ekya/raw/main/assets/Ekya_nsdi22_camready.pdf).
 
 <p align="center">
     <img src="https://i.imgur.com/ng1jLsS.png" width="500">
@@ -134,7 +134,7 @@ pip install -e . --verbose  # Add --user if you see a permission denied error.
 ```
 3. After installing ray, clone the Ekya repository and install Ekya.
 ```
-git clone https://github.com/ekya-project/ekya/
+git clone https://github.com/edge-video-services/ekya/
 pip install -e . --verbose
 ```
 4. Install [Nvidia Multiprocess Service (MPS)](https://docs.nvidia.com/deploy/mps/index.html).
