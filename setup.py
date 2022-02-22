@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='ekya',
     version='0.0.1',
-    url='https://github.com/ekya-project/ekya.git',
+    url='https://github.com/edge-video-services/ekya.git',
     author='Romil Bhardwaj, Zhengxu Xia',
     author_email='romilb@eecs.berkeley.edu',
     description='Ekya - A system for online training',
