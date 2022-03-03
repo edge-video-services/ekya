@@ -271,7 +271,7 @@ bash driver_profiling_mp4_golden_vegas.sh
 1. Download ```vegas_pretrained_models.tar.gz``` from
 [here](https://drive.google.com/drive/folders/1wuAVAQQ4rfhg7rIsFIYB2IG32y0r3AYG)
 into ```pretrained_models```.
-2. Perform the following commands. 
+2. Run the following commands. 
     ```bash 
     cd pretrained_models
     tar -xvf vegas_pretrained_models.tar.gz
@@ -407,7 +407,7 @@ To add your own learning technique:
     of `bazel` are installed, please install `bazel-3.2.0` following instructions
     from
     [here](https://docs.bazel.build/versions/main/install-compile-source.html)
-    and compile ray useing `bazel-3.2.0`.
+    and compile ray using `bazel-3.2.0`.
 
 
 # Ekya driver script usage guide
