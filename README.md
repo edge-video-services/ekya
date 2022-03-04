@@ -4,7 +4,7 @@ Given a set of video streams and pre-trained models, Ekya can continuously fine-
 
 At the core of Ekya is the Thief Scheduler, which operates by stealing small resource chunks from a selected job and reallocating them to a more promising job. The thief scheduler obtains information about the "promise" of a job through the micro-profiling mechanism, which runs each retraining job for a short duration to estimate it's future performance.
 
-This architecture diagram highlights the flow of data in Ekya. More details can be found in our NSDI 2022 paper available [here](https://github.com/edge-video-services/ekya/raw/main/assets/Ekya_nsdi22_camready.pdf).
+This architecture diagram highlights the flow of data in Ekya. More details can be found in our [USENIX NSDI 2022](https://www.usenix.org/conference/nsdi22) paper available [here](https://aka.ms/ekya-paper).
 
 <p align="center">
     <img src="https://i.imgur.com/ng1jLsS.png" width="500">
@@ -76,16 +76,10 @@ Origin for the image is at the top right of the video frame.
     <img src="https://i.imgur.com/tV4M1oZ.png" width="500">
 </p>
 
-This dataset contains 62GB of traffic videos recorded from five pole mounted fish-eye cameras in the city of Bellevue, WA. Each video stream is recorded at 1280x720@30fps, for a total of 101 hour of video across all cameras. 
+The [Bellevue Traffic Video Dataset](https://github.com/City-of-Bellevue/TrafficVideoDataset) contains 62GB of traffic videos recorded from five pole mounted fish-eye cameras in the city of Bellevue, WA. Each video stream is recorded at 1280x720@30fps, for a total of 101 hour of video across all cameras. 
 
-Download links:
-* [Camera 1 Videos](https://drive.google.com/drive/folders/16coOR8PlNzvmUm1vsaYJVF_bAOQGySa8?usp=sharing)
-* [Camera 2 Videos](https://drive.google.com/drive/folders/1cR1VwoAvEjFLRaUzeYph-bxx4LoM6pOH?usp=sharing)
-* [Camera 3 Videos](https://drive.google.com/drive/folders/1irB6XKu2iM3BSJ2AEYH4kJl9nfG9j-yy?usp=sharing)
-* [Camera 4 Videos](https://drive.google.com/drive/folders/1IN6kwywddO3B3uHyC5S18vqf0KEWToJ_?usp=sharing)
-* [Camera 5 Videos](https://drive.google.com/drive/folders/17bn7l7Qm5s-r5DYoFQPhviFZ0jWY9qk5?usp=sharing)
-* [Combined labels and cropped objects](https://drive.google.com/drive/folders/177UvUO26lDybXGzyy_8QL9ov1dRyFfhi?usp=sharing)
- 
+The dataset can be [downloaded here](https://github.com/City-of-Bellevue/TrafficVideoDataset#bellevue-traffic-video-dataset). We also prepared [combined labels and cropped objects](https://drive.google.com/drive/folders/177UvUO26lDybXGzyy_8QL9ov1dRyFfhi?usp=sharing) for Ekya to run on the dataset.
+
 
 ## Urban Building Dataset
 <p align="center">
@@ -559,12 +553,13 @@ optional arguments:
 If you use Ekya or the new datasets in your research, please cite the Ekya NSDI 2022 paper:
 ```
 @inproceedings {276952,
-title = {Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers},
-booktitle = {19th USENIX Symposium on Networked Systems Design and Implementation (NSDI 22)},
-year = {2022},
-address = {Renton, WA},
-url = {https://www.usenix.org/conference/nsdi22/presentation/bhardwaj},
-publisher = {USENIX Association},
-month = apr,
+    author={Romil Bhardwaj and Zhengxu Xia and Ganesh Ananthanarayanan and Junchen Jiang and Yuanchao Shu and Nikolaos Karianakis and Kevin Hsieh and Paramvir Bahl and Ion Stoica}
+    title = {{Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers}},
+    booktitle = {USENIX Symposium on Networked Systems Design and Implementation (NSDI 22)},
+    year = {2022},
+    address = {Renton, WA},
+    url = {https://www.usenix.org/conference/nsdi22/presentation/bhardwaj},
+    publisher = {USENIX Association},
+    month = apr,
 }
 ```
