@@ -164,7 +164,7 @@ into ```ekya/object_detection_model/```.
 ## Running Ekya with Cityscapes Dataset
 
 ### Preprocessing the Cityscapes Dataset
-1. Download the Cityscapes dataset using the instructions on the [website](https://www.cityscapes-dataset.com/) and extract the `leftImg8bit` and `gtFine` subdirectorie to a dataset directory.
+1. Download the Cityscapes dataset using the instructions on the [website](https://www.cityscapes-dataset.com/) and extract the `leftImg8bit` and `gtFine` subdirectories from `leftImg8bit_trainvaltest.zip` and `gtFine_trainvaltest.zip` to a dataset directory.
 2. Generate the samplelists by running
 ```bash
 cd ekya/datasets/scripts
