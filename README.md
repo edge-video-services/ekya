@@ -157,7 +157,7 @@ Please download resnext101 elastic model from
 ### Object Detection Model
 
 The object detection model is used to identify objects from video frames.
-Please download ```faster_rcnn_resnet101_coco_2018_01_28``` from
+Please download ```faster_rcnn_resnet101_coco``` from
 [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md)
 into ```ekya/object_detection_model/```.
 
@@ -166,17 +166,18 @@ into ```ekya/object_detection_model/```.
 ### Preprocessing the Cityscapes Dataset
 1. Download the Cityscapes dataset using the instructions on the [website](https://www.cityscapes-dataset.com/) and extract the `leftImg8bit` and `gtFine` subdirectories from `leftImg8bit_trainvaltest.zip` and `gtFine_trainvaltest.zip` to a dataset directory.
 2. Generate the samplelists by running
-```bash
-cd ekya/datasets/scripts
-python cityscapes_generate_sample_lists.py --root <path to your cityscapes root>
-```
+    ```bash
+    cd ekya/datasets/scripts
+    python cityscapes_generate_sample_lists.py --root <path to your cityscapes root>
+    ```
 
 ### Running Ekya
 3. Download the pretrained models for citysapes from [here](https://drive.google.com/drive/folders/15qE5IBFAkKuiDeUcV8xQPvpKXq1Zk6yT?usp=sharing) and extract them to a directory.
 4. Run the multicity training script provided with Ekya.
- ```
-./ekya/experiment_drivers/driver_multicity.sh
-```
+    ```bash
+    cd ekya/experiment_drivers/
+    ./driver_multicity.sh
+    ```
 You may need to modify `DATASET_PATH` and `MODEL_PATH` to point to your dataset and pretrained models dir, respectively. You must also set `NUM_GPUS` to reflect the number of GPUs to use.
 This script will run all schedulers, including `thief`, `fair` and `noretrain`.
 
@@ -401,7 +402,23 @@ To add your own learning technique:
     of `bazel` are installed, please install `bazel-3.2.0` following instructions
     from
     [here](https://docs.bazel.build/versions/main/install-compile-source.html)
-    and compile ray using `bazel-3.2.0`.
+    and compile ray useing `bazel-3.2.0`.
+2. When installing Ekya with `pip install -e . --verbose` and the following
+   error (tensorflow version issue) shows up, it can be resolved by running 
+   `pip install -e . --verbose --use-feature=2020-resolver`.
+
+    ```
+    ERROR: After October 2020 you may experience errors when installing or
+    updating packages. This is because pip will change the way that it resolves
+    dependency conflicts. We recommend you use --use-feature=2020-resolver to
+    test your packages with the new resolver before it becomes the default.
+    tensorflow-gpu 2.2.0 requires gast==0.3.3, but you'll have gast 0.2.2 which
+    is incompatible. tensorflow-gpu 2.2.0 requires tensorboard<2.3.0,>=2.2.0,
+    but you'll have tensorboard 2.1.1 which is incompatible. tensorflow-gpu
+    2.2.0 requires tensorflow-estimator<2.3.0,>=2.2.0, but you'll have
+    tensorflow-estimator 2.1.0 which is incompatible. ekya 0.0.1 requires
+    tensorflow==2.2.0, but you'll have tensorflow 2.1.0 which is incompatible.
+    ```
 
 
 # Ekya driver script usage guide
